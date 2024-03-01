@@ -4,4 +4,4 @@ def test_get_home(web_client):
     assert response.data.decode("utf-8") == "Hello, world!"
 
 def test_example():
-    assert True == True
+    assert True == False
